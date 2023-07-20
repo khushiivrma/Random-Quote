@@ -1,0 +1,68 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #2b2d2f;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.Title{
+   text-decoration:underline;
+   text-decoration-color: rgb(66, 66, 58);
+}
+.Quote{
+  font-style: italic;
+  font-size: 25px;
+  color: #5cb6ee;
+  border: #9bd367 2px dotted;
+  padding: 0.9rem;
+  border-radius:20px;
+}
+.Author{
+  font-style: oblique;
+  font-size: medium;
+  color: rgb(132, 184, 166);
+  border: #6cc0d5 2px dotted;
+  padding: 0.9rem;
+  border-radius: 20px;
+}
+.Generator{
+  background-color: rgb(32, 24, 24);
+  color: beige;
+  border: white 2px solid;
+  border-radius: 15px;
+  padding: 0.7rem;
+  font-weight: bold;
+
+}
+
+
+
+
+
+
+
+
+
